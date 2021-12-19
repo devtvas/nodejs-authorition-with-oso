@@ -14,5 +14,8 @@
   "dependencies": {
     "express": "^4.17.1",
     "oso": "0.24.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
   }
 }

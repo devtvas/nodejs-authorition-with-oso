@@ -8,6 +8,10 @@ Follow along [here](https://docs.osohq.com/node/getting-started/quickstart.html)
 2. Install dependencies: `npm install`
 3. Run the server: `npm run dev`
 
+## Run the server with nodemon
+
+1. Rodar o projeto usando o nodemon `nodemon app.js`
+
 ## Make some changes
 
 If you visit

@@ -21,7 +21,7 @@ async function start() {
 
     try {
       await oso.authorize(user, "read", repo);
-      res.send(`<h1>A <span style="color: green;"> ${nametoUpperCase}</span></h1><p>Welcome to repo ${nameNormal}</p>`);
+      res.send(`<h1>A <span style="color: blue;"> ${nametoUpperCase}</span></h1><p>Welcome to repo ${nameNormal}</p>`);
     } catch (e) {
       if (e instanceof NotFoundError) {
         res.status(404);
